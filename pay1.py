@@ -1,4 +1,7 @@
-hour=35
-rate=27.5
+hour=20
+rate="nine"
 pay=hour*rate
-print(pay)
+try:
+    print(int(pay))
+except:
+    print("error!please enter numeric number")    
